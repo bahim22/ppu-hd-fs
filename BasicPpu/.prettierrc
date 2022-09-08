@@ -1,0 +1,14 @@
+{
+  "endOfLine": "lf",
+  "printWidth": 140,
+  "semi": false,
+  "tabWidth": 4,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "trailingComma": "es5",
+  "bracketSameLine": true,
+  "embeddedLanguageFormatting": "auto",
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "proseWrap": "always"
+}
