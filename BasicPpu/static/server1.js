@@ -1,9 +1,7 @@
 const express = require('express')
 
-const app = express()
-
 // const port = process.env.PORT || 5222
-
+const app = express()
 const port = 5222
 
 app.get('/Basic/home3.html', (req, res) => {
@@ -14,11 +12,11 @@ app.listen(port, () => {
     console.log("App Live on port ${port}")
 })
 
-// ** Server from @bahim22/athena repo 
+// ** Server from @bahim22/athena repo
 
 const path = require('path');
 const express = require('express');
-const app = express();
+// const app = express();
 // other relevant code rm
 // express serves files in prod
 app.use(express.static(path.resolve(__dirname, '../client/build')));
