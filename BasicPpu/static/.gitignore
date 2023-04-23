@@ -1,4 +1,4 @@
 .DS_Store
 Back/*
 ./Back/*
-node_modules
+./*/node_modeules/*
