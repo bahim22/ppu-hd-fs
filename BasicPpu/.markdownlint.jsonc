@@ -1,0 +1,22 @@
+{
+    "default": true,
+    "MD013": false,
+    "images": true,
+    "MD035": false,
+    "MD025": false,
+    "spelling": true,
+    "heading-increment": false,
+    "MD007": false,
+    "no-duplicate-heading": false,
+    "header-style": true,
+    "heading-style": false,
+    "blanks-around-headings": false,
+    "no-hard-tabs": false,
+    "no-emphasis-as-header": false,
+    "bullet": true,
+    "commands-show-output": true,
+    "atx": true,
+    "header-increment": false,
+    "no-inline-html": false,
+    "line-length": false
+}

@@ -68,4 +68,7 @@ git checkout -b $branch_name
 git add . # add all edited files to repo
 git commit -m $message || $2
 git push -u origin || git push ssh://git@ssh.github.com:443/($uname)/$repo.git
+
+git add . && git commit -m 'commit message' \
+git push -u origin dev
 ```
