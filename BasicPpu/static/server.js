@@ -1,7 +1,8 @@
-const express = require('express')
+const express = require('express');
 
-const app = express()
-const path = require('path')
+const app = express();
+exports.app = app;
+const path = require('path');
 
 app.use(express.static(path.join(__dirname, 'css')),
 app.use('/html', (req,res,next) =>{
