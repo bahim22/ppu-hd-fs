@@ -11,10 +11,6 @@
 
 ### Alternate Server Options: Python, Apache, MIIS
 
-### MIIS
-
-### Apache
-
 Automatically sets the Content-Type response header field. The callback fn(err) is invoked when the transfer is complete or when an error occurs. Be sure to check res.headersSent if you wish to attempt responding, as the header and some data may have already been transferred.
 
 Options:
@@ -71,4 +67,35 @@ git push -u origin || git push ssh://git@ssh.github.com:443/($uname)/$repo.git
 
 git add . && git commit -m 'commit message' \
 git push -u origin dev
+```
+
+```js './file-serve.js'
+
+// Request URL string. This contains only the URL that is present in the actual HTTP request. Take the following request:
+
+GET /status?name=ryan HTTP/1.1
+Accept: text/plain
+// To parse the URL into its parts:
+
+new URL(request.url, `http://${request.getHeaders().host}`);
+/* When request.url is '/status?name=ryan' and
+request.getHeaders().host is 'localhost:3000':
+*/
+$ node
+> new URL(request.url, `http://${request.getHeaders().host}`)
+URL {
+  href: 'http://localhost:3000/status?name=ryan',
+  origin: 'http://localhost:3000',
+  protocol: 'http:',
+  username: '',
+  password: '',
+  host: 'localhost:3000',
+  hostname: 'localhost',
+  port: '3000',
+  pathname: '/status',
+  search: '?name=ryan',
+  searchParams: URLSearchParams { 'name' => 'ryan' },
+  hash: ''
+}
+
 ```
