@@ -1,15 +1,7 @@
 
-# Express
+# Servers, DB, SQL v. noSQL, DBMS, ORM
 
-## SQL
-
-### ORM
-
-## Servers
-
-### Python Data/DBMS info
-
-### Alternate Server Options: Python, Apache, MIIS
+## Express, Apache, MIIS, Uvicorn, Starlette
 
 Automatically sets the Content-Type response header field. The callback fn(err) is invoked when the transfer is complete or when an error occurs. Be sure to check res.headersSent if you wish to attempt responding, as the header and some data may have already been transferred.
 
@@ -97,5 +89,4 @@ URL {
   searchParams: URLSearchParams { 'name' => 'ryan' },
   hash: ''
 }
-
 ```

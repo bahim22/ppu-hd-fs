@@ -21,7 +21,7 @@ app.listen(5222);
 // let mainPage = path.resolve('./base.html')
 const port = 5222
 
-app.get('/ppu-hd-fs/BasicPpu/static/base.html', (req, res) => {
+app.get('/ppu-hd-fs/BasicPpu/base.html', (req, res) => {
     res.send('./base.html')
 })
 
