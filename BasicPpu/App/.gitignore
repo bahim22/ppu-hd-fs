@@ -2,3 +2,6 @@
 Back/*
 ./Back/*
 ./*/node_modeules/*
+ngrok_dev/icons/*
+ngrok_dev/images/*
+.venv/*
