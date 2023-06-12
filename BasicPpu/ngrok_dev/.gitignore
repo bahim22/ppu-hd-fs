@@ -1,0 +1,16 @@
+.DS_Store
+Back/*
+./Back/*
+node_modules
+.env
+.venv
+ngrok_dev/.venv
+BasicPpu/App/ngrok_dev/.venv/*
+./*/node_modeules/*
+ngrok_dev/icons/*
+ngrok_dev/images/*
+.venv/*
+./*/.venv/*
+ngrok_dev/.venv/*
+./.venv/*
+ngrok_dev
