@@ -7,5 +7,3 @@ node_modules
 .venv
 ngrok_dev/.venv
 ngrok_dev/*
-ngrok_dev/icons/*
-ngrok_dev/images/*
