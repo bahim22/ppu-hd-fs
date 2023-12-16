@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/ppu-hd-fs/BasicPpu/static/server.js"
+            "program": "${workspaceFolder}/ppu-hd-fs/BasicPpu/server/server.js"
         }
     ]
 }
